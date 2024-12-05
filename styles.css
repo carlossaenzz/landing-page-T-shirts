@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --primary-bg: #e6fcff; /* color pricipal fondo*/
+    --text-body: #0b2e59;  /* color para footer fondo */
+    --header-bg: #ebb970; /* color para header fondo */
+    --bottom-hover: #f07868; /* color efecto botón */
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway' sans-serif;
+    line-height: 1.5;
+    background-color: var(--primary-bg);
+    color: var(--text-body);
+}
+
+.header {
+    background-color: var(--header-bg);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.header .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* section de características | producto */
