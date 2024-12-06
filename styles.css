@@ -2,8 +2,8 @@
 :root {
     --primary-bg: #e6fcff; /* color pricipal fondo*/
     --text-body: #0b2e59;  /* color para footer fondo */
-    --header-bg: #ebb970; /* color para header fondo */
-    --bottom-hover: #f07868; /* color efecto botón */
+    --header-bg: #ecdbc2; /* color para header fondo */
+    --bottom-hover: #ec7b6c; /* color efecto botón */
 }
 /* Reset */
 * {
@@ -13,12 +13,14 @@
 }
 
 body {
+    background-image: url(/);
     font-family: 'Raleway' sans-serif;
     line-height: 1.5;
     background-color: var(--primary-bg);
     color: var(--text-body);
 }
 
+/* encabezado */
 .header {
     background-color: var(--header-bg);
     text-align: center;
@@ -26,12 +28,12 @@ body {
 }
 
 .header h1 {
-    font-size: 3.5em;
+    font-size: 4.5em;
     margin-bottom: 15px;
 }
 
 .header p {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 20px;
 }
 
@@ -42,3 +44,68 @@ body {
 }
 
 /* section de características | producto */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 30px 50px;
+    padding-right: 50px;
+}
+
+.features h2  {
+    margin: auto;
+    font-size: 50px;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+.feature p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature img {
+    /* justify-content: space-between; */
+    height: auto;
+    width: 100%;
+    
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* section llamado ala acción */
+.cta {
+    text-align: center;
+    background-color: var(--header-bg);
+    padding: 30px 20px;
+}
+
+.cta-button {
+    background-color: var(--primary-bg);
+    color: var(--bottom-hover);
+    padding: 15px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: backgrund-color 0.3s;
+}
+
+.cta-button:hover {
+    
+    background-color: var(--bottom-hover);
+    color: var(--primary-bg);
+}
+
+/* footer pie de pagina */
+.footer {
+    text-align: center;
+    background-color: var(--text-body);
+    color: var(--primary-bg);
+    padding: 20px;
+}
