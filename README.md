@@ -13,10 +13,10 @@ Llamado a la acción: Botones destacados para guiar al usuario hacia la personal
 ```
 📦 LandingPage-Camisetas
 ├── 📁 image/
-│   ├── T-Shirt-Men.jpg
-│   ├── T-Shirts_Unisex.jpg
-│   ├── T-Shirt-Basic-Women.jpg
-│   ├── T-ShirtSize.jpg
+│   ├── calidad-premium.jpg
+│   ├── camiseta-personalizada.jpg
+│   ├── diseños-unicos.jpg
+│   ├── impresion-duradera.jpg
 ├── index.html
 ├── styles.css
 ├── README.md 
@@ -25,7 +25,7 @@ Llamado a la acción: Botones destacados para guiar al usuario hacia la personal
 # 🚀 Cómo usar
 1. Clona este repositorio:
 ```
-git clone https://github.com/carlossaenzz/landing-page-T-shirts.git
+git clone https://github.com/carlossaenzz/landing-page-camisetas.git
 ```
 2. Abre index.html en tu navegador.
 3. Explora las opciones de personalización.
@@ -34,9 +34,8 @@ git clone https://github.com/carlossaenzz/landing-page-T-shirts.git
 - Efectos Gradientes: Incorporar gradientes para fondos o botones para añadir dinamismo.
 - Tipografía Moderna: Cambiar a fuentes más contemporáneas como Poppins o Montserrat.
 - Iconografía: Usar íconos personalizados para representar características, haciendo la página más visual.
-- Añadir una sección de "Diseña tu camiseta".
 - Animaciones Sutiles: Usar transiciones y animaciones CSS para interacciones más atractivas.
 - Implementar un formulario para cargar imágenes personalizadas.
 - Mejorar la responsividad para dispositivos móviles.
 # 📝 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `License.md` para más información.
