@@ -20,7 +20,7 @@ Llamado a la acción: Botones destacados para guiar al usuario hacia la personal
 ├── index.html
 ├── styles.css
 ├── README.md 
-└── Licese.md
+└── LICENSE
 ```
 # 🚀 Cómo usar
 1. Clona este repositorio:
@@ -38,4 +38,4 @@ git clone https://github.com/carlossaenzz/landing-page-camisetas.git
 - Implementar un formulario para cargar imágenes personalizadas.
 - Mejorar la responsividad para dispositivos móviles.
 # 📝 Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `License.md` para más información.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más información.
