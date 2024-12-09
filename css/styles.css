@@ -2,8 +2,8 @@
 :root {
     --color-bg-primary: #e6fcff; /* fondo pricipal */
     --text-body: #133258;  /* color principal del teto */
-    --cta-button-bg: #1714c44d; /* fondo del encabezado */
-    --color-btn-hover-: #133258; /* color efecto botón */
+    --cta-button-bg: #1714c44d; /* color button */
+    --color-btn-hover-: #133258; /* color efecto hover */
 }
 /* Reset */
 * {
