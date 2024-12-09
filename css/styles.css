@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
-    --primary-bg: #e6fcff; /* color pricipal fondo*/
-    --text-body: #133258;  /* color para footer fondo */
-    --header-bg: #4544864d; /* color para header fondo */
-    --bottom-hover: #133258; /* color efecto botón */
+    --color-bg-primary: #e6fcff; /* fondo pricipal */
+    --text-body: #133258;  /* color principal del teto */
+    --cta-button-bg: #1714c44d; /* fondo del encabezado */
+    --color-btn-hover-: #133258; /* color efecto botón */
 }
 /* Reset */
 * {
@@ -15,68 +15,72 @@
 body {
     font-family: 'Raleway' sans-serif;
     line-height: 1.5;
-    /* background-color: var(--primary-bg); */
+    background-color: var(--color-bg-primary);
     color: var(--text-body);
 }
 
-/* encabezado */
-.header {
-    background-color: var(--header-bg);
+/* contenedor */
+container-features {
+    display: flex;
+    flex-direction: column; /* organiza en filas: primero las imágenes, luego el CTA */
     text-align: center;
-    padding: 50px 0;
-    height: 100vh;
-    /* margin-top: 20px; */
+    gap: 20px;
+    align-items: center;
 }
 
-.header h1 {
+h1 {
     font-size: 4.3em;
     margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.header p {
+p {
     font-size: 1.7em;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-/* section de características | producto */
+/* sectión de imagenes | producto */
 .features {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45px;
-    margin: 30px 50px;
-    margin-bottom: 0;
+    gap: 45px;  /* espacios entre imagenes */
+    flex-wrap: wrap; /* permite que las imágenes se ajusten si no caben en la fila */
 }
 
 .feature {
     text-align: center;
     flex: 1;
-    max-width: 400px;
+    max-width: 300px;
 }
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+} 
 
 .feature p {
     font-size: 20px;
 }
 
-.feature img {
-    height: auto;
+
+/* llamado a la acción | CTA */
+.call-to-action {
     width: 100%;
-    border-radius: 8px;
-}
-
-/* section cta llamado ala acción */
-.cta {
     text-align: center;
-    /* background-color: var(--header-bg); */
-    padding: 40px;
-    font-size: 20px;
-    margin-top: 0;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    background-color: var(--cta-button-bg);
 }
 
-/* cta botón */
+/* botón CTA efecto hover */
 .cta-button {
-    background-color: var(--primary-bg);
-    color: var(--bottom-hover);
+    background-color: var(--color-btn-hover-);
+    color: var(--color-bg-primary);
     padding: 10px 20px;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -88,7 +92,9 @@ body {
 }
 
 .cta-button:hover {
-    background-color: var(--bottom-hover);
-    color: var(--primary-bg);
+    background-color: var(--color-bg-primary);
+    color: var(--text-body);
 }
+
+
 
